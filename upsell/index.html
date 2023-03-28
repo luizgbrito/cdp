@@ -146,19 +146,25 @@
             </div>
 
 
-            <!-- HOTMART - Upsell Widget -->
-<div id="box_hotmart"></div>
-<script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
+			            <!-- HOTMART - Upsell Widget -->
+            <div class="d-flex justify-content-center hide">
+                <div class="box" id="box" style="display: none;">
+                    <div id="box_hotmart"></div>
+                </div>
+            </div>
 
-<script>
-opts = {
-key: 'USL-96904-286530-cd26ce8f8730092e034efa26a7c3ea8b',
-width: '650' ,
-height: '420'
-};
-Upsell.Widget.show(opts);
-</script>
-<!-- HOTMART - Upsell Widget [end] -->
+            <script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
+
+            <script>
+                opts = {
+                    key: 'USL-96904-286530-cd26ce8f8730092e034efa26a7c3ea8b',
+                    width: '650',
+                    height: '420'
+                };
+                Upsell.Widget.show(opts);
+            </script>
+            <!-- HOTMART - Upsell Widget [end] -->
+
 
             <div class="d-flex justify-content-center" style="margin-top: 20px;">
                 <div class="row">
