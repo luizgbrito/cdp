@@ -363,6 +363,55 @@
 
         </div>
     </footer>
+    
+    <script type="text/javascript">
+ 
+function evitarSeleccion( target ) {
+   if ( typeof target.onselectstart != "undefined" ) {
+      target.onselectstart = function( ) { return false; }
+   }
+   else if ( typeof target.style.MozUserSelect != "undefined" ) {
+      target.style.MozUserSelect = "none"
+   }
+   else {
+      target.onmousedown = function( ) { return false; }
+   }
+   
+   target.style.cursor = "default"
+}
+ 
+evitarSeleccion( document.body );
+ 
+        <script>
+    document.onkeypress = function (event) {
+    event = (event || window.event);
+    if (event.keyCode == 123) {return false;}
+    if (event.keyCode == 93) {return false;}
+    if (event.keyCode == 85) {return false;}
+    if (event.keyCode == 80) {return false;}
+    if (event.keyCode == 73) {return false;}
+        
+    }
+    
+    document.onmousedown = function (event) {
+    event = (event || window.event);
+    if (event.keyCode == 123) {return false;}
+    if (event.keyCode == 93) {return false;}
+    if (event.keyCode == 85) {return false;}
+    if (event.keyCode == 80) {return false;}
+    if (event.keyCode == 73) {return false;}
+        
+    }
+    document.onkeydown = function (event) {
+    event = (event || window.event);
+    if (event.keyCode == 123) {return false;}
+    if (event.keyCode == 93) {return false;}
+    if (event.keyCode == 85) {return false;}
+    if (event.keyCode == 80) {return false;}
+    if (event.keyCode == 73) {return false;}
+    
+    }
+    </script>
 
 
     <!-- Optional JavaScript -->
