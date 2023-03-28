@@ -1,0 +1,16 @@
+.box-vsl {
+    width: 70%!important; 
+    margin: auto;
+}
+
+@media only screen and (max-width: 720px){
+    .box-vsl {
+        width: 90%!important; 
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .box-vsl {
+        width: 100%!important; 
+    }
+}
