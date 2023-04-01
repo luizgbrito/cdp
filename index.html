@@ -81,10 +81,9 @@ src="https://www.facebook.com/tr?id=564316302141663&ev=PageView&noscript=1"
     <section class="hero">
         <div class="container">
 
-            <div class="d-flex justify-content-center" style="margin-bottom: 20px;margin-top: 30px;">
-                <h1>Esta Técnica de 3 Preguntas Hace Que Cualquier Mujer Se <span class="yellow">Obsesione</span> Contigo...
-                </h1>
-            </div>
+<div class="d-flex justify-content-center" style="margin-bottom: 20px;margin-top: 85px;">
+  <h1>Esta Técnica de 3 Preguntas Hace Que Cualquier Mujer Se <span class="yellow">Obsesione</span> Contigo...</h1>
+</div>
             <div class="row" >
                 <div class="col">
                     <div class="box-vsl">
@@ -125,7 +124,7 @@ src="https://www.facebook.com/tr?id=564316302141663&ev=PageView&noscript=1"
             </div>
         </div>
     </section>
-    <section class="c-section" style="display: none;">
+    <section class="c-section">
         <div class="container" id="c-container">
             <div class="row count-c">
                 <div clas="col">
@@ -360,7 +359,7 @@ src="https://www.facebook.com/tr?id=564316302141663&ev=PageView&noscript=1"
 
     <footer>
         <div class="container">
-            <div class="row footerContent" style="display: none;">
+            <div class="row footerContent" id="footer">
                 <div class="col-xs-12 col-md-6 pirataria">
                     <h3> La piratería es un <b>DELITO</b></h3>
                     La venta de la Caja de Pandora sólo puede realizarse a través de este sitio web. Cualquier otro sitio donde haya encontrado este programa es un
@@ -405,7 +404,7 @@ src="https://www.facebook.com/tr?id=564316302141663&ev=PageView&noscript=1"
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    
+
     <script>
         (function ($) {
             $(window).enllax();
@@ -420,7 +419,19 @@ $(document).ready(function () {
   // define um atraso de 5 segundos antes de mostrar o botão
   setTimeout(function () {
     $('#button_chechout_hero').show();
-  }, 1338000); // 1338000 milissegundos = 5 segundos
+  }, 1341000); // 1341000 milissegundos = 5 segundos
+});
+  </script>
+
+    <script>
+$(document).ready(function () {
+  // oculta o botão dentro de uma div com o ID "c-container"
+  $('#c-container').hide();
+
+  // define um atraso de 5 segundos antes de mostrar o botão
+  setTimeout(function () {
+    $('#c-container').show();
+  }, 1341000); // 1341000 milissegundos = 5 segundos
 });
   </script>
 
@@ -432,7 +443,19 @@ $(document).ready(function () {
   // define um atraso de 5 segundos antes de mostrar o botão
   setTimeout(function () {
     $('#button_chechout_final').show();
-  }, 1338000); // 1338000 milissegundos = 5 segundos
+  }, 1341000); // 1341000 milissegundos = 5 segundos
+});
+  </script>
+
+      <script>
+$(document).ready(function () {
+  // oculta o botão dentro de uma div com o ID "footer"
+  $('#footer').hide();
+
+  // define um atraso de 5 segundos antes de mostrar o botão
+  setTimeout(function () {
+    $('#footer').show();
+  }, 1341000); // 1341000 milissegundos = 5 segundos
 });
   </script>
 
